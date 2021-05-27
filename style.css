@@ -1,4 +1,7 @@
 
+html{
+    scroll-behavior: smooth !important;
+}
 .Intro{
     background: url("img/backDark.jpg");
     
@@ -9,6 +12,7 @@
     
     
 }
+
 .wew{
     margin-bottom: 40px !important;
     padding-bottom:  40px !important;
@@ -42,3 +46,57 @@
     margin:200px 40px !important;
     color:red !important;
 }
+.logoUpdated{
+    height: 60px;
+}
+/* LOGO ON SMALL SCREEN  */
+.logoOnSmallScreen{    
+    height: 100px; 
+    width: 100px; 
+    margin-top: 5%;
+    
+}
+.carousel{
+    height: 700px !important; 
+    width: 100% !important;
+    
+}
+.middle-indicator{
+    position:absolute;
+    top:50%;
+    }
+   .middle-indicator-text{
+    font-size: 4.2rem;
+   }
+   a.middle-indicator-text{
+     color:white !important;
+   }
+ .content-indicator{
+     width: 64px;
+     height: 64px;
+     background: none;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     border-radius: 50px; 
+   }
+     .indicators{
+       visibility: hidden;
+   }
+ .avatarLogo{
+     height: 40% !important;
+    width:auto !important;
+ }
+ .textAvatar{
+margin-top: 5%;
+ }
+ .title{
+     font-family: 'Lobster', cursive;;
+     height: 80px;
+     margin-bottom: 0%;
+     font-size: 2.0rem !important;
+ }
+@media only screen and (max-width: 600px) {
+   .logoUpdated{
+       height: 50px;
+   }
+  }
