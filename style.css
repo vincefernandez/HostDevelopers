@@ -1,0 +1,44 @@
+
+.Intro{
+    background: url("img/backDark.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:auto;
+    
+    
+}
+.wew{
+    margin-bottom: 40px !important;
+    padding-bottom:  40px !important;
+    font-family: 'Mate SC', serif;
+}
+#Introduction{
+    padding-bottom: 20% !important;
+    margin-bottom: 10% !important;
+}
+.BtnProjects{
+    height: 100px;
+    width: 100px;
+    size: larger;
+}
+#search{
+    max-height: 100%;
+}
+.logo{
+    height: 60px;
+    width: auto;
+}
+.image1{
+   background-position:center !important;
+   background-repeat: no-repeat !important;
+   background-color: white;
+  
+
+}
+
+.section-follow .i{
+    margin:200px 40px !important;
+    color:red !important;
+}
